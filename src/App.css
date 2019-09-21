@@ -1,22 +1,23 @@
-.App {
+.search-bar{
+  margin: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.search-bar input {
+  width: 75%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.video-item img {
+  max-width: 64px;
 }
 
-.App-link {
-  color: #09d3ac;
+.video-detail .details{
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.list-group-item {
+  cursor: pointer;
 }
